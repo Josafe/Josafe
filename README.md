@@ -1,4 +1,4 @@
-# Hola, sóc en Josafe 👋
+# Hola, sóc Joan!
 
 Desenvolupador de **Barcelona** (CFGS DAM) amb molt d'interès en **IA aplicada al desenvolupament de programari**: agents, models locals amb Ollama, desenvolupament dirigit per especificacions i, sobretot, **mesurar** què funciona de veritat.
 
