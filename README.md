@@ -6,14 +6,7 @@ Desenvolupador de **Barcelona** (CFGS DAM) amb molt d'interès en **IA aplicada 
 
 Entorn multiagent i multimodel per al **desenvolupament dirigit per especificacions (SDD)**. Models locals (Qwen 3.5 / 3.6 amb Ollama) per a tasques senzilles i Claude com a orquestrador i revisor segons la dificultat. Tot el treball passa per un cicle **spec → revisió → revisió de l'spec → implementació**, amb aprovació humana a cada pas.
 
-<table>
-<tr>
-<td><b>150+</b><br>commits</td>
-<td><b>20+</b><br>suites de test</td>
-<td><b>15</b><br>tags de fase</td>
-<td><b>20 / 20</b><br>mutants morts (config)</td>
-</tr>
-</table>
+<img src="assets/kpi.svg" alt="AI-Dev-Harness en xifres: 150 commits, 834 casos de test, 21 suites, 3,5 línies de test per línia de codi" width="100%">
 
 **Què hi ha dins**
 
@@ -28,16 +21,30 @@ Entorn multiagent i multimodel per al **desenvolupament dirigit per especificaci
 
 ### 🧪 Tests
 
-- Més de 20 suites en **Windows PowerShell 5.1**, cadascuna en el seu propi procés, executades per `scripts/test-all.ps1`.
+- 22 suites en **Windows PowerShell 5.1** (834 casos executats offline, 0 fallits), cadascuna en el seu propi procés, executades per `scripts/test-all.ps1`.
 - El runner **falla qualsevol suite que modifiqui el repositori** (tripwire) i diferencia `PASS`, `PASS WITH SKIPS` i `FAIL`; els tests que necessiten un model real només s'executen amb `-IncludeLive`.
 - Tests *golden* dels prompts, *mocks* d'Ollama (fake host per TCP local) i fixtures d'especificacions vàlides i invàlides.
 - **Mutation testing** a mà: 20 mutants de la configuració, tots detectats pel test (vegeu l'informe de calibratge).
+
+<img src="assets/tests-per-suite.svg" alt="Casos de test per suite" width="100%">
+
+> Execució del 26-11-2026 sense Ollama: 21 de 22 suites executades (una necessita un model real). El runner va marcar 2 suites com a FAIL només pel *tripwire*, perquè un altre worktree del projecte es modificava durant l'execució; els seus casos van passar tots.
 
 ### 📊 Benchmarks i validació de models
 
 - `scripts/benchmark-models.ps1`: compara models amb N repeticions i en calcula la **mediana** (tokens/s = `eval_count / eval_duration`).
 - Validació real de `qwen3.5:9b` i `qwen3.6:35b`: el revisor detecta una spec dolenta de manera consistent (2 de 2 execucions, ~52 s) i s'han documentat els límits de la mostra.
 - **Calibratge del pressupost de context** amb 16 prompts reals: `charsPerToken` 3,5 → 4,0 i `reservedOutputTokens` 8192 → 6144, eliminant 7 de 10 falsos avisos de truncament.
+
+<img src="assets/chars-per-token.svg" alt="Caràcters per token mesurats en 16 prompts reals" width="100%">
+
+<img src="assets/generation-speed.svg" alt="Velocitat de generació en tokens per segon de qwen3.5:9b i qwen3.6:35b" width="100%">
+
+> Mostres petites i una sola màquina: són senyals, no benchmarks definitius. El context en català (3,93 car./token) queda per sota del 4,0 configurat, i l'informe ho documenta.
+
+### 🗓️ Ritme de desenvolupament
+
+<img src="assets/commits-timeline.svg" alt="Commits per dia del 17 al 26 de novembre amb les fites de fase" width="100%">
 
 ### 📚 Documentació de l'enginyeria
 
@@ -64,6 +71,8 @@ El projecte documenta cada fase amb informes d'auditoria independents, indicant 
 | [AI_ReinforcedLearningModel](https://github.com/Josafe/AI_ReinforcedLearningModel) | Model de reinforcement learning dissenyat amb codi | Python |
 | [AI_Ultralytics_Supervision](https://github.com/Josafe/AI_Ultralytics_Supervision) | IA en supervisió per computador | Python |
 | [TFG-CFGS-DAM](https://github.com/Josafe/TFG-CFGS-DAM) | Control remot de tòtems registrats a la BD | Dart |
+
+<img src="assets/languages.svg" alt="Repos per llenguatge principal" width="100%">
 
 ## 🛠️ Tecnologies
 
