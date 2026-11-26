@@ -2,7 +2,21 @@
 
 # Hi, I'm Joan!
 
-Developer from **Barcelona** (higher vocational degree in cross-platform app development and AI / Big Data Specialization) with a strong interest in **AI applied to software development**: agents, local models, specification-driven development and, above all, **measuring** what really works.
+Full-stack developer and AI systems engineer from **Barcelona**, with professional experience since 2022 building web platforms and backend systems (Laravel, Vue, React, Go, AWS), and a specialisation in **AI & Big Data**. I'm especially interested in **AI applied to software development**: agents, local models, specification-driven development and, above all, **measuring** what really works.
+
+## 💼 Experience
+
+| Period | Role | What I did |
+|---|---|---|
+| Dec 2024 – Oct 2026 | **Full-Stack Software Engineer**, NessunDorma Group | Web applications and REST APIs with PHP, Laravel, Vue.js, TypeScript and Go; led the migration of a local database application to the company ERP; built an internal real-time presentation automation platform (sync, PDF export, QR) and Go logging/automation tools. |
+| Oct 2025 – today | **Freelance**: AGC Padel Academy | Booking and payments platform in production for a sports academy in Switzerland (React, Supabase, Stripe). |
+| Oct 2023 – Mar 2024 | **Database Administrator**, Rehau S.A. | Maintenance of multinational databases (Spain / Portugal), user permissions and ERP data. |
+| Feb 2022 – Aug 2023 | **Cross-Platform Developer**, Dokuos | Interactive software for digital totems (Node.js, PHP, Flutter, Dart, MySQL), remote software maintenance and backend/database management. |
+| Feb – Jul 2019 | **IT Technician**, InfoConnexions | Installation and maintenance of systems, applications and hardware. |
+
+**Education:** Specialisation course in AI & Big Data (2024–2025) · Higher Vocational Degree in Multiplatform Application Development, DAM (2020–2022) · Intermediate Vocational Degree in Microcomputer Systems & Networks (2017–2019)
+
+**Certifications:** AWS Academy (Cloud Foundations, Cloud Architecting, Data Engineering) · Hugging Face Agents Course
 
 ## 🚀 In production: AGC Padel Academy
 
@@ -134,4 +148,4 @@ Summary drawn from the code of my repositories (public and private). Private pro
 
 ## 📫 Contact
 
-📍 Barcelona, Catalonia · 🌐 [josafe.dev](https://www.josafe.dev) · 💼 GitHub: [@Josafe](https://github.com/Josafe)
+📍 Barcelona, Catalonia · 🌐 [josafe.dev](https://www.josafe.dev) · 🔗 [LinkedIn](https://www.linkedin.com/in/joan-sabater-ferr%C3%A9-2b4169115/) · 💼 GitHub: [@Josafe](https://github.com/Josafe)

@@ -2,7 +2,21 @@
 
 # Hola, sóc Joan!
 
-Desenvolupador de **Barcelona** (CFGS en Desenvolupament d'Aplicacions Multiplataforma) amb molt d'interès en **IA aplicada al desenvolupament de programari**: agents, models locals amb Ollama, desenvolupament dirigit per especificacions i, sobretot, **mesurar** què funciona de veritat.
+Desenvolupador full-stack i enginyer de sistemes d'IA de **Barcelona**, amb experiència professional des del 2022 construint plataformes web i sistemes de backend (Laravel, Vue, React, Go, AWS) i una especialització en **IA i Big Data**. M'interessa especialment la **IA aplicada al desenvolupament de programari**: agents, models locals, desenvolupament dirigit per especificacions i, sobretot, **mesurar** què funciona de veritat.
+
+## 💼 Experiència
+
+| Període | Rol | Què he fet |
+|---|---|---|
+| Des 2024 – Oct 2026 | **Enginyer de programari Full-Stack**, NessunDorma Group | Aplicacions web i API REST amb PHP, Laravel, Vue.js, TypeScript i Go; vaig liderar la migració d'una aplicació de base de dades local a l'ERP de l'empresa; plataforma interna d'automatització de presentacions en temps real (sincronització, PDF, QR) i eines de registre i automatització en Go. |
+| Oct 2025 – avui | **Freelance**: AGC Padel Academy | Plataforma de reserves i pagaments en producció per a una acadèmia esportiva a Suïssa (React, Supabase, Stripe). |
+| Oct 2023 – Mar 2024 | **Administrador de bases de dades**, Rehau S.A. | Manteniment de bases de dades multinacionals (Espanya / Portugal), permisos d'usuari i dades d'ERP. |
+| Feb 2022 – Ago 2023 | **Desenvolupador multiplataforma**, Dokuos | Programari interactiu per a tòtems digitals (Node.js, PHP, Flutter, Dart, MySQL), manteniment remot de programari i gestió de backend i bases de dades. |
+| Feb – Jul 2019 | **Tècnic informàtic**, InfoConnexions | Instal·lació i manteniment de sistemes, aplicacions i maquinari. |
+
+**Educació:** Curs d'especialització en IA i Big Data (2024–2025) · CFGS en Desenvolupament d'Aplicacions Multiplataforma, DAM (2020–2022) · CFGM en Sistemes Microinformàtics i Xarxes (2017–2019)
+
+**Certificats:** AWS Academy (Fonaments del núvol, Arquitectura del núvol, Enginyeria de dades) · Hugging Face, curs d'agents
 
 ## 🚀 En producció: AGC Padel Academy
 
@@ -134,4 +148,4 @@ Resum extret del codi dels meus repositoris (públics i privats). Els projectes 
 
 ## 📫 Contacte
 
-📍 Barcelona, Catalunya · 🌐 [josafe.dev](https://www.josafe.dev) · 💼 GitHub: [@Josafe](https://github.com/Josafe)
+📍 Barcelona, Catalunya · 🌐 [josafe.dev](https://www.josafe.dev) · 🔗 [LinkedIn](https://www.linkedin.com/in/joan-sabater-ferr%C3%A9-2b4169115/) · 💼 GitHub: [@Josafe](https://github.com/Josafe)
