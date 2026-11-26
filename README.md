@@ -2,7 +2,7 @@
 
 # Hi, I'm Joan!
 
-Developer from **Barcelona** (higher vocational degree in cross-platform app development) with a strong interest in **AI applied to software development**: agents, local models with Ollama, specification-driven development and, above all, **measuring** what really works.
+Developer from **Barcelona** (higher vocational degree in cross-platform app development) with a strong interest in **AI applied to software development**: agents, local models, specification-driven development and, above all, **measuring** what really works.
 
 ## 🚀 In production: AGC Padel Academy
 
