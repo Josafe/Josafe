@@ -83,6 +83,25 @@ Each phase is documented with independent audit reports, labelling what is *FACT
 
 ---
 
+## 🧰 Technologies and what I've done with them
+
+Summary drawn from the code of my repositories (public and private). Private projects are described by technology only.
+
+| Area | Technologies | What I've applied them to |
+|---|---|---|
+| **🤖 AI agents & LLMs** | Ollama · Qwen 3.5/3.6 · Claude · LangChain · LangGraph · MCP · Hugging Face | Specification-driven multi-agent harness with token budgeting, telemetry and model benchmarks; a multi-agent chatbot (Flask + LangGraph + Vue) that analyses and installs GitHub repositories; local MCP server experiments. |
+| **🧠 Deep learning & NLP** | PyTorch · torchvision · Transformers · Pinecone | Own neural-network implementation, image classification (melanoma dataset), tabular models, LSTM, Transformers and GPT-2, and a RAG pipeline with a vector database. |
+| **📈 Classical ML & RL** | scikit-learn · pandas · NumPy · seaborn · Gymnasium · R | Classification on Iris, wine and heart-disease datasets, maze search (A*), statistics scripts in R, and a DQN agent (replay buffer, epsilon-greedy) on CartPole written module by module. |
+| **👁️ Vision & audio** | OpenCV · Ultralytics YOLO · Supervision · wav2vec | Object detection and supervision on video, and speech/vowel audio exploration. |
+| **🎨 Frontend** | React 18 · Vite · Tailwind CSS · Radix UI · Vue 3 · Nuxt 3 · Angular · TypeScript | Production booking site in React; SSR portfolio ([josafe.dev](https://www.josafe.dev)) with typed content and Catalan/Spanish/English i18n; Vue 3 + TypeScript apps; Angular with RxJS, routing and Karma/Jasmine tests. |
+| **⚙️ Backend & APIs** | Laravel 10/12/13 · Filament · PHP 8.3 · Supabase Edge Functions · Flask · Go · Sanctum | Admin panel with role-based access through policies and enums, with PHPUnit tests; serverless functions for bookings and Stripe webhooks; REST APIs in Flask and Laravel; Go services in private projects. |
+| **🗄️ Data & payments** | PostgreSQL · SQLite · SQL · JDBC · Stripe | Relational schemas and migrations, Stripe Checkout confirmed by webhooks, and database access from Java. |
+| **📱 Mobile & desktop** | Flutter/Dart · Kotlin · Java (Swing/AWT, concurrency, JUnit) · React Native | Flutter admin dashboard (provider, charts, calendar) over a PHP backend; Android apps in Kotlin; Java desktop applications; React Native + TypeScript technical test. |
+| **🚢 DevOps & tooling** | Git/GitHub · Docker Compose · certbot · cron · AWS (S3, CloudFront, Route 53) · PowerShell | Phase tags and worktrees; containerised deployment with HTTPS and scheduled jobs in private projects; static hosting on AWS; PowerShell 5.1 automation and a custom test runner. |
+| **🧪 Engineering practices** | Spec-driven development · golden and mutation testing · telemetry · audits · i18n | Specifications reviewed before code, offline test suites with a repository tripwire, measured calibration of model budgets and written audit reports. |
+
+---
+
 ## 🗂️ Other projects
 
 | Project | Description | Stack |
@@ -115,4 +134,4 @@ Each phase is documented with independent audit reports, labelling what is *FACT
 
 ## 📫 Contact
 
-📍 Barcelona, Catalonia · 💼 GitHub: [@Josafe](https://github.com/Josafe)
+📍 Barcelona, Catalonia · 🌐 [josafe.dev](https://www.josafe.dev) · 💼 GitHub: [@Josafe](https://github.com/Josafe)

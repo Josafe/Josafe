@@ -83,6 +83,25 @@ El proyecto documenta cada fase con informes de auditoría independientes, indic
 
 ---
 
+## 🧰 Tecnologías y qué he hecho con ellas
+
+Resumen extraído del código de mis repositorios (públicos y privados). Los proyectos privados se describen solo por tecnología.
+
+| Área | Tecnologías | Para qué las he aplicado |
+|---|---|---|
+| **🤖 Agentes de IA y LLMs** | Ollama · Qwen 3.5/3.6 · Claude · LangChain · LangGraph · MCP · Hugging Face | Harness multiagente dirigido por especificaciones con presupuesto de tokens, telemetría y benchmarks de modelos; un chatbot multiagente (Flask + LangGraph + Vue) que analiza e instala repositorios de GitHub; experimentos con un servidor MCP local. |
+| **🧠 Deep learning y NLP** | PyTorch · torchvision · Transformers · Pinecone | Implementación propia de redes neuronales, clasificación de imágenes (dataset de melanoma), modelos tabulares, LSTM, Transformers y GPT-2, y un pipeline RAG con base de datos vectorial. |
+| **📈 ML clásico y RL** | scikit-learn · pandas · NumPy · seaborn · Gymnasium · R | Clasificación sobre datasets de Iris, vino y enfermedad cardíaca, búsqueda en laberintos (A*), scripts de estadística en R y un agente DQN (replay buffer, epsilon-greedy) sobre CartPole escrito módulo a módulo. |
+| **👁️ Visión y audio** | OpenCV · Ultralytics YOLO · Supervision · wav2vec | Detección de objetos y supervisión sobre vídeo, y exploración de audio de voz y vocales. |
+| **🎨 Frontend** | React 18 · Vite · Tailwind CSS · Radix UI · Vue 3 · Nuxt 3 · Angular · TypeScript | Web de reservas en producción con React; portfolio SSR ([josafe.dev](https://www.josafe.dev)) con contenido tipado e i18n catalán/castellano/inglés; apps Vue 3 + TypeScript; Angular con RxJS, rutas y tests Karma/Jasmine. |
+| **⚙️ Backend y APIs** | Laravel 10/12/13 · Filament · PHP 8.3 · Supabase Edge Functions · Flask · Go · Sanctum | Panel de administración con acceso por roles mediante policies y enums, con tests PHPUnit; funciones serverless para reservas y webhooks de Stripe; APIs REST con Flask y Laravel; servicios en Go en proyectos privados. |
+| **🗄️ Datos y pagos** | PostgreSQL · SQLite · SQL · JDBC · Stripe | Esquemas relacionales y migraciones, Stripe Checkout confirmado por webhooks y acceso a bases de datos desde Java. |
+| **📱 Móvil y escritorio** | Flutter/Dart · Kotlin · Java (Swing/AWT, concurrencia, JUnit) · React Native | Dashboard de administración en Flutter (provider, gráficos, calendario) sobre un backend PHP; apps Android en Kotlin; aplicaciones de escritorio en Java; prueba técnica de React Native + TypeScript. |
+| **🚢 DevOps y herramientas** | Git/GitHub · Docker Compose · certbot · cron · AWS (S3, CloudFront, Route 53) · PowerShell | Tags por fase y worktrees; despliegue con contenedores, HTTPS y tareas programadas en proyectos privados; hosting estático en AWS; automatización en PowerShell 5.1 y un runner de tests propio. |
+| **🧪 Prácticas de ingeniería** | Desarrollo dirigido por especificaciones · tests golden y de mutación · telemetría · auditorías · i18n | Especificaciones revisadas antes del código, suites de test offline con tripwire del repositorio, calibración medida de los presupuestos de modelos e informes de auditoría escritos. |
+
+---
+
 ## 🗂️ Otros proyectos
 
 | Proyecto | Descripción | Stack |
@@ -115,4 +134,4 @@ El proyecto documenta cada fase con informes de auditoría independientes, indic
 
 ## 📫 Contacto
 
-📍 Barcelona, Cataluña · 💼 GitHub: [@Josafe](https://github.com/Josafe)
+📍 Barcelona, Cataluña · 🌐 [josafe.dev](https://www.josafe.dev) · 💼 GitHub: [@Josafe](https://github.com/Josafe)

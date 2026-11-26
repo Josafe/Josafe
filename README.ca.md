@@ -83,6 +83,25 @@ El projecte documenta cada fase amb informes d'auditoria independents, indicant 
 
 ---
 
+## 🧰 Tecnologies i què n'he fet
+
+Resum extret del codi dels meus repositoris (públics i privats). Els projectes privats es descriuen només per tecnologia.
+
+| Àrea | Tecnologies | Per a què les he aplicat |
+|---|---|---|
+| **🤖 Agents d'IA i LLMs** | Ollama · Qwen 3.5/3.6 · Claude · LangChain · LangGraph · MCP · Hugging Face | Harness multiagent dirigit per especificacions amb pressupost de tokens, telemetria i benchmarks de models; un chatbot multiagent (Flask + LangGraph + Vue) que analitza i instal·la repositoris de GitHub; experiments amb un servidor MCP local. |
+| **🧠 Deep learning i NLP** | PyTorch · torchvision · Transformers · Pinecone | Implementació pròpia de xarxes neuronals, classificació d'imatges (dataset de melanoma), models tabulars, LSTM, Transformers i GPT-2, i un pipeline RAG amb base de dades vectorial. |
+| **📈 ML clàssic i RL** | scikit-learn · pandas · NumPy · seaborn · Gymnasium · R | Classificació sobre datasets d'Iris, vi i malaltia cardíaca, cerca en laberints (A*), scripts d'estadística en R i un agent DQN (replay buffer, epsilon-greedy) sobre CartPole escrit mòdul a mòdul. |
+| **👁️ Visió i àudio** | OpenCV · Ultralytics YOLO · Supervision · wav2vec | Detecció d'objectes i supervisió sobre vídeo, i exploració d'àudio de veu i vocals. |
+| **🎨 Frontend** | React 18 · Vite · Tailwind CSS · Radix UI · Vue 3 · Nuxt 3 · Angular · TypeScript | Web de reserves en producció amb React; portfolio SSR ([josafe.dev](https://www.josafe.dev)) amb contingut tipat i i18n català/castellà/anglès; apps Vue 3 + TypeScript; Angular amb RxJS, rutes i tests Karma/Jasmine. |
+| **⚙️ Backend i APIs** | Laravel 10/12/13 · Filament · PHP 8.3 · Supabase Edge Functions · Flask · Go · Sanctum | Panell d'administració amb accés per rols mitjançant policies i enums, amb tests PHPUnit; funcions serverless per a reserves i webhooks de Stripe; APIs REST amb Flask i Laravel; serveis en Go en projectes privats. |
+| **🗄️ Dades i pagaments** | PostgreSQL · SQLite · SQL · JDBC · Stripe | Esquemes relacionals i migracions, Stripe Checkout confirmat per webhooks i accés a bases de dades des de Java. |
+| **📱 Mòbil i escriptori** | Flutter/Dart · Kotlin · Java (Swing/AWT, concurrència, JUnit) · React Native | Dashboard d'administració en Flutter (provider, gràfics, calendari) sobre un backend PHP; apps Android en Kotlin; aplicacions d'escriptori en Java; prova tècnica de React Native + TypeScript. |
+| **🚢 DevOps i eines** | Git/GitHub · Docker Compose · certbot · cron · AWS (S3, CloudFront, Route 53) · PowerShell | Tags per fase i worktrees; desplegament amb contenidors, HTTPS i tasques programades en projectes privats; hosting estàtic a AWS; automatització en PowerShell 5.1 i un runner de tests propi. |
+| **🧪 Pràctiques d'enginyeria** | Desenvolupament dirigit per especificacions · tests golden i de mutació · telemetria · auditories · i18n | Especificacions revisades abans del codi, suites de test offline amb tripwire del repositori, calibratge mesurat dels pressupostos de models i informes d'auditoria escrits. |
+
+---
+
 ## 🗂️ Altres projectes
 
 | Projecte | Descripció | Stack |
@@ -115,4 +134,4 @@ El projecte documenta cada fase amb informes d'auditoria independents, indicant 
 
 ## 📫 Contacte
 
-📍 Barcelona, Catalunya · 💼 GitHub: [@Josafe](https://github.com/Josafe)
+📍 Barcelona, Catalunya · 🌐 [josafe.dev](https://www.josafe.dev) · 💼 GitHub: [@Josafe](https://github.com/Josafe)
