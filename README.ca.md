@@ -9,14 +9,14 @@ Desenvolupador full-stack i enginyer de sistemes d'IA de **Barcelona**, amb expe
 ## 🎯 Què puc aportar
 
 - **Lliurament de punta a punta:** porto els productes dels requisits a producció. AGC Padel Academy (reserves i pagaments amb Stripe) és en directe amb usuaris reals (unes 50 reserves al mes).
-- **Integracions i dades:** vaig liderar la migració d'una aplicació de base de dades local a l'ERP d'una empresa, i he treballat com a administrador de bases de dades en sistemes multinacionals.
+- **Integracions i dades:** vaig liderar la migració d'una aplicació de dades interna a l'ERP d'una empresa, i he treballat com a administrador de bases de dades en sistemes multinacionals.
 - **IA mesurada, no suposada:** sistemes d'agents amb LLMs locals, amb 834 tests offline i benchmarks sobre prompts reals.
 
 ## 💼 Experiència
 
 | Període | Rol | Què he fet |
 |---|---|---|
-| Des 2024 – Oct 2026 | **Enginyer de programari Full-Stack**, NessunDorma Group | Aplicacions web i API REST amb PHP, Laravel, Vue.js, TypeScript i Go; vaig liderar la migració d'una aplicació de base de dades local a l'ERP de l'empresa; plataforma interna d'automatització de presentacions en temps real (sincronització, PDF, QR) i eines de registre i automatització en Go. |
+| Des 2024 – Oct 2026 | **Enginyer de programari Full-Stack**, NessunDorma Group | Aplicacions web i API REST amb PHP, Laravel, Vue.js, TypeScript i Go; vaig liderar la migració d'una aplicació de dades interna a l'ERP de l'empresa; plataforma interna d'automatització de presentacions en temps real (sincronització, PDF, QR) i eines de registre i automatització en Go. |
 | Oct 2025 – avui | **Freelance**: AGC Padel Academy | Plataforma de reserves i pagaments en producció per a una acadèmia esportiva a Suïssa (React, Supabase, Stripe), amb unes 50 reserves al mes. |
 | Oct 2023 – Mar 2024 | **Administrador de bases de dades**, Rehau S.A. | Manteniment de bases de dades multinacionals (Espanya / Portugal), permisos d'usuari i dades d'ERP. |
 | Gen 2022 – Jun 2023 | **Desenvolupador multiplataforma**, Dokuos | Programari interactiu per a tòtems digitals (Node.js, PHP, Flutter, Dart, MySQL), manteniment remot de programari i gestió de backend i bases de dades. |

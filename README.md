@@ -9,14 +9,14 @@ Full-stack developer and AI systems engineer from **Barcelona**, with profession
 ## 🎯 What I bring
 
 - **End-to-end delivery:** I take products from requirements to production. AGC Padel Academy (booking and Stripe payments) is live with real users (~50 bookings per month).
-- **Integrations and data:** I led the migration of a local database application into a company ERP, and I have worked as a database administrator on multinational systems.
+- **Integrations and data:** I led the migration of an internal data application into a company ERP, and I have worked as a database administrator on multinational systems.
 - **AI that is measured, not assumed:** agent systems with local LLMs, backed by 834 offline tests and benchmarks on real prompts.
 
 ## 💼 Experience
 
 | Period | Role | What I did |
 |---|---|---|
-| Dec 2024 – Oct 2026 | **Full-Stack Software Engineer**, NessunDorma Group | Web applications and REST APIs with PHP, Laravel, Vue.js, TypeScript and Go; led the migration of a local database application to the company ERP; built an internal real-time presentation automation platform (sync, PDF export, QR) and Go logging/automation tools. |
+| Dec 2024 – Oct 2026 | **Full-Stack Software Engineer**, NessunDorma Group | Web applications and REST APIs with PHP, Laravel, Vue.js, TypeScript and Go; led the migration of an internal data application to the company ERP; built an internal real-time presentation automation platform (sync, PDF export, QR) and Go logging/automation tools. |
 | Oct 2025 – today | **Freelance**: AGC Padel Academy | Booking and payments platform in production for a sports academy in Switzerland (React, Supabase, Stripe), handling ~50 bookings per month. |
 | Oct 2023 – Mar 2024 | **Database Administrator**, Rehau S.A. | Maintenance of multinational databases (Spain / Portugal), user permissions and ERP data. |
 | Jan 2022 – Jun 2023 | **Cross-Platform Developer**, Dokuos | Interactive software for digital totems (Node.js, PHP, Flutter, Dart, MySQL), remote software maintenance and backend/database management. |
