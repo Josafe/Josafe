@@ -19,7 +19,7 @@ Desenvolupador full-stack i enginyer de sistemes d'IA de **Barcelona**, amb expe
 | Des 2024 – Oct 2026 | **Enginyer de programari Full-Stack**, NessunDorma Group | Aplicacions web i API REST amb PHP, Laravel, Vue.js, TypeScript i Go; vaig liderar la migració d'una aplicació de base de dades local a l'ERP de l'empresa; plataforma interna d'automatització de presentacions en temps real (sincronització, PDF, QR) i eines de registre i automatització en Go. |
 | Oct 2025 – avui | **Freelance**: AGC Padel Academy | Plataforma de reserves i pagaments en producció per a una acadèmia esportiva a Suïssa (React, Supabase, Stripe). |
 | Oct 2023 – Mar 2024 | **Administrador de bases de dades**, Rehau S.A. | Manteniment de bases de dades multinacionals (Espanya / Portugal), permisos d'usuari i dades d'ERP. |
-| Feb 2022 – Ago 2023 | **Desenvolupador multiplataforma**, Dokuos | Programari interactiu per a tòtems digitals (Node.js, PHP, Flutter, Dart, MySQL), manteniment remot de programari i gestió de backend i bases de dades. |
+| Gen 2022 – Jun 2023 | **Desenvolupador multiplataforma**, Dokuos | Programari interactiu per a tòtems digitals (Node.js, PHP, Flutter, Dart, MySQL), manteniment remot de programari i gestió de backend i bases de dades. |
 | Feb – Jul 2019 | **Tècnic informàtic**, InfoConnexions | Instal·lació i manteniment de sistemes, aplicacions i maquinari. |
 
 **Educació:** Curs d'especialització en IA i Big Data (2024–2025) · CFGS en Desenvolupament d'Aplicacions Multiplataforma, DAM (2020–2022) · CFGM en Sistemes Microinformàtics i Xarxes (2017–2019)
