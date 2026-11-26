@@ -6,6 +6,12 @@ Full-stack developer and AI systems engineer from **Barcelona**, with profession
 
 > 🟢 **Open to work:** Full-Stack Developer roles · Barcelona (hybrid) or remote.
 
+## 🎯 What I bring
+
+- **End-to-end delivery:** I take products from requirements to production. AGC Padel Academy (booking and Stripe payments) is live with real users.
+- **Integrations and data:** I led the migration of a local database application into a company ERP, and I have worked as a database administrator on multinational systems.
+- **AI that is measured, not assumed:** agent systems with local LLMs, backed by 834 offline tests and benchmarks on real prompts.
+
 ## 💼 Experience
 
 | Period | Role | What I did |
@@ -19,6 +25,8 @@ Full-stack developer and AI systems engineer from **Barcelona**, with profession
 **Education:** Specialisation course in AI & Big Data (2024–2025) · Higher Vocational Degree in Multiplatform Application Development, DAM (2020–2022) · Intermediate Vocational Degree in Microcomputer Systems & Networks (2017–2019)
 
 **Certifications:** AWS Academy (Cloud Foundations, Cloud Architecting, Data Engineering) · Hugging Face Agents Course
+
+---
 
 ## 🚀 In production: AGC Padel Academy
 
@@ -41,11 +49,47 @@ Full-stack **booking and payments platform** for [AGC Padel Academy](https://agc
 
 ---
 
+## 🧰 Technologies and what I've done with them
+
+Summary drawn from the code of my repositories (public and private). Private projects are described by technology only.
+
+| Area | Technologies | What I've applied them to |
+|---|---|---|
+| **🤖 AI agents & LLMs** | Ollama · Qwen 3.5/3.6 · Claude · LangChain · LangGraph · MCP · Hugging Face | Specification-driven multi-agent harness with token budgeting, telemetry and model benchmarks; a multi-agent chatbot (Flask + LangGraph + Vue) that analyses and installs GitHub repositories; local MCP server experiments. |
+| **🧠 Deep learning & NLP** | PyTorch · torchvision · Transformers · Pinecone | Own neural-network implementation, image classification (melanoma dataset), tabular models, LSTM, Transformers and GPT-2, and a RAG pipeline with a vector database. |
+| **📈 Classical ML & RL** | scikit-learn · pandas · NumPy · seaborn · Gymnasium · R | Classification on Iris, wine and heart-disease datasets, maze search (A*), statistics scripts in R, and a DQN agent (replay buffer, epsilon-greedy) on CartPole written module by module. |
+| **👁️ Vision & audio** | OpenCV · Ultralytics YOLO · Supervision · wav2vec | Object detection and supervision on video, and speech/vowel audio exploration. |
+| **🎨 Frontend** | React 18 · Vite · Tailwind CSS · Radix UI · Vue 3 · Nuxt 3 · Angular · TypeScript | Production booking site in React; SSR portfolio ([josafe.dev](https://www.josafe.dev)) with typed content and Catalan/Spanish/English i18n; Vue 3 + TypeScript apps; Angular with RxJS, routing and Karma/Jasmine tests. |
+| **⚙️ Backend & APIs** | Laravel 10/12/13 · Filament · PHP 8.3 · Supabase Edge Functions · Flask · Go · Sanctum | Admin panel with role-based access through policies and enums, with PHPUnit tests; serverless functions for bookings and Stripe webhooks; REST APIs in Flask and Laravel; Go services in private projects. |
+| **🗄️ Data & payments** | PostgreSQL · SQLite · SQL · JDBC · Stripe | Relational schemas and migrations, Stripe Checkout confirmed by webhooks, and database access from Java. |
+| **📱 Mobile & desktop** | Flutter/Dart · Kotlin · Java (Swing/AWT, concurrency, JUnit) · React Native | Flutter admin dashboard (provider, charts, calendar) over a PHP backend; Android apps in Kotlin; Java desktop applications; React Native + TypeScript technical test. |
+| **🚢 DevOps & tooling** | Git/GitHub · Docker Compose · certbot · cron · AWS (S3, CloudFront, Route 53) · PowerShell | Phase tags and worktrees; containerised deployment with HTTPS and scheduled jobs in private projects; static hosting on AWS; PowerShell 5.1 automation and a custom test runner. |
+| **🧪 Engineering practices** | Spec-driven development · golden and mutation testing · telemetry · audits · i18n | Specifications reviewed before code, offline test suites with a repository tripwire, measured calibration of model budgets and written audit reports. |
+
+![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat&logo=powershell&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat&logo=supabase&logoColor=white)
+![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=flat&logo=stripe&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white)
+![Vue](https://img.shields.io/badge/Vue-4FC08D?style=flat&logo=vuedotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat&logo=dart&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat&logo=ollama&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+
+---
+
 ## 🔭 Featured project: [AI-Dev-Harness](https://github.com/Josafe/AI-Dev-Harness)
 
 Multi-agent, multi-model environment for **specification-driven development (SDD)**. Local models (Qwen 3.5 / 3.6 with Ollama) handle simple tasks and Claude acts as orchestrator and reviewer depending on difficulty. All work follows a **spec → review → spec revision → implementation** cycle, with human approval at each step.
 
 <img src="assets/en/kpi.svg" alt="AI-Dev-Harness in numbers: 150 commits, 834 test cases, 21 suites, 3.5 test lines per source line" width="100%">
+
+<details>
+<summary><b>Architecture, tests and benchmarks of AI-Dev-Harness</b></summary>
 
 **What's inside**
 
@@ -97,24 +141,7 @@ Each phase is documented with independent audit reports, labelling what is *FACT
 
 **Stack:** PowerShell 5.1 · Ollama · Qwen 3.5 / 3.6 · Claude · Git · Specification-Driven Development
 
----
-
-## 🧰 Technologies and what I've done with them
-
-Summary drawn from the code of my repositories (public and private). Private projects are described by technology only.
-
-| Area | Technologies | What I've applied them to |
-|---|---|---|
-| **🤖 AI agents & LLMs** | Ollama · Qwen 3.5/3.6 · Claude · LangChain · LangGraph · MCP · Hugging Face | Specification-driven multi-agent harness with token budgeting, telemetry and model benchmarks; a multi-agent chatbot (Flask + LangGraph + Vue) that analyses and installs GitHub repositories; local MCP server experiments. |
-| **🧠 Deep learning & NLP** | PyTorch · torchvision · Transformers · Pinecone | Own neural-network implementation, image classification (melanoma dataset), tabular models, LSTM, Transformers and GPT-2, and a RAG pipeline with a vector database. |
-| **📈 Classical ML & RL** | scikit-learn · pandas · NumPy · seaborn · Gymnasium · R | Classification on Iris, wine and heart-disease datasets, maze search (A*), statistics scripts in R, and a DQN agent (replay buffer, epsilon-greedy) on CartPole written module by module. |
-| **👁️ Vision & audio** | OpenCV · Ultralytics YOLO · Supervision · wav2vec | Object detection and supervision on video, and speech/vowel audio exploration. |
-| **🎨 Frontend** | React 18 · Vite · Tailwind CSS · Radix UI · Vue 3 · Nuxt 3 · Angular · TypeScript | Production booking site in React; SSR portfolio ([josafe.dev](https://www.josafe.dev)) with typed content and Catalan/Spanish/English i18n; Vue 3 + TypeScript apps; Angular with RxJS, routing and Karma/Jasmine tests. |
-| **⚙️ Backend & APIs** | Laravel 10/12/13 · Filament · PHP 8.3 · Supabase Edge Functions · Flask · Go · Sanctum | Admin panel with role-based access through policies and enums, with PHPUnit tests; serverless functions for bookings and Stripe webhooks; REST APIs in Flask and Laravel; Go services in private projects. |
-| **🗄️ Data & payments** | PostgreSQL · SQLite · SQL · JDBC · Stripe | Relational schemas and migrations, Stripe Checkout confirmed by webhooks, and database access from Java. |
-| **📱 Mobile & desktop** | Flutter/Dart · Kotlin · Java (Swing/AWT, concurrency, JUnit) · React Native | Flutter admin dashboard (provider, charts, calendar) over a PHP backend; Android apps in Kotlin; Java desktop applications; React Native + TypeScript technical test. |
-| **🚢 DevOps & tooling** | Git/GitHub · Docker Compose · certbot · cron · AWS (S3, CloudFront, Route 53) · PowerShell | Phase tags and worktrees; containerised deployment with HTTPS and scheduled jobs in private projects; static hosting on AWS; PowerShell 5.1 automation and a custom test runner. |
-| **🧪 Engineering practices** | Spec-driven development · golden and mutation testing · telemetry · audits · i18n | Specifications reviewed before code, offline test suites with a repository tripwire, measured calibration of model budgets and written audit reports. |
+</details>
 
 ---
 
@@ -126,27 +153,9 @@ Summary drawn from the code of my repositories (public and private). Private pro
 | [Portfolio](https://github.com/Josafe/Portfolio) | Personal portfolio with the projects I've built | Vue |
 | [TFM-Sistema-Chatbot-Multiagent](https://github.com/Josafe/TFM-Sistema-Chatbot-Multiagent) | Lightweight retrained chatbot with a multi-agent system that analyses, clones and installs dependencies of GitHub repositories | Python |
 | [AI](https://github.com/Josafe/AI) | All my progress in AI: classical ML, deep learning, NLP, imaging | Jupyter · Python |
-| [AI_ReinforcedLearningModel](https://github.com/Josafe/AI_ReinforcedLearningModel) | Reinforcement learning model designed from code | Python |
-| [AI_Ultralytics_Supervision](https://github.com/Josafe/AI_Ultralytics_Supervision) | AI for computer-vision supervision | Python |
 | [TFG-CFGS-DAM](https://github.com/Josafe/TFG-CFGS-DAM) | Remote control of kiosks registered in the database | Dart |
 
 <img src="assets/en/languages.svg" alt="Repositories by main language" width="100%">
-
-## 🛠️ Technologies
-
-![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat&logo=powershell&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
-![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat&logo=supabase&logoColor=white)
-![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=flat&logo=stripe&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white)
-![Vue](https://img.shields.io/badge/Vue-4FC08D?style=flat&logo=vuedotjs&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat&logo=dart&logoColor=white)
-![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat&logo=ollama&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 
 ## 📫 Contact
 
