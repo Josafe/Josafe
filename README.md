@@ -1,83 +1,110 @@
-# Hola, sóc Joan!
+🌐 **English** · [Català](README.ca.md) · [Español](README.es.md)
 
-Desenvolupador de **Barcelona** (CFGS DAM) amb molt d'interès en **IA aplicada al desenvolupament de programari**: agents, models locals amb Ollama, desenvolupament dirigit per especificacions i, sobretot, **mesurar** què funciona de veritat.
+# Hi, I'm Joan!
 
-## 🔭 Projecte destacat: [AI-Dev-Harness](https://github.com/Josafe/AI-Dev-Harness)
+Developer from **Barcelona** (higher vocational degree in cross-platform app development) with a strong interest in **AI applied to software development**: agents, local models with Ollama, specification-driven development and, above all, **measuring** what really works.
 
-Entorn multiagent i multimodel per al **desenvolupament dirigit per especificacions (SDD)**. Models locals (Qwen 3.5 / 3.6 amb Ollama) per a tasques senzilles i Claude com a orquestrador i revisor segons la dificultat. Tot el treball passa per un cicle **spec → revisió → revisió de l'spec → implementació**, amb aprovació humana a cada pas.
+## 🚀 In production: AGC Padel Academy
 
-<img src="assets/kpi.svg" alt="AI-Dev-Harness en xifres: 150 commits, 834 casos de test, 21 suites, 3,5 línies de test per línia de codi" width="100%">
+Full-stack **booking and payments platform** for [AGC Padel Academy](https://agcpadelacademy.com), a padel academy in Switzerland. Built **end to end as an MVP** (requirements, data model, frontend, backend, payments and deployment) and **running in production with real customers**.
 
-**Què hi ha dins**
+> 🔒 The source code is private (client work). I'm happy to walk through the architecture and code on request.
 
-| Peça | Què fa |
+<img src="assets/en/agc-architecture.svg" alt="AGC Padel Academy architecture: React frontend, Supabase, Stripe and Edge Functions" width="100%">
+
+**What it does**
+
+- Public site: lessons, trips, tournaments, contact and legal terms, fully responsive
+- Booking of lessons and activities, with user accounts (login and profile management)
+- Online payments with **Stripe Checkout**, confirmed server-side through **webhooks**
+- Booking rules in the data layer: cancellation windows, unpaid-booking cleanup and lesson credits
+- Admin dashboard so trainers and staff manage sessions, availability and bookings
+- Server logic in **Supabase Edge Functions** (TypeScript): bookings, webhooks, cleanup and contact form
+
+**Stack:** React 18 · Vite · Tailwind CSS · Radix UI · React Router · Supabase (Auth, Postgres, Storage, Edge Functions) · Stripe
+
+---
+
+## 🔭 Featured project: [AI-Dev-Harness](https://github.com/Josafe/AI-Dev-Harness)
+
+Multi-agent, multi-model environment for **specification-driven development (SDD)**. Local models (Qwen 3.5 / 3.6 with Ollama) handle simple tasks and Claude acts as orchestrator and reviewer depending on difficulty. All work follows a **spec → review → spec revision → implementation** cycle, with human approval at each step.
+
+<img src="assets/en/kpi.svg" alt="AI-Dev-Harness in numbers: 150 commits, 834 test cases, 21 suites, 3.5 test lines per source line" width="100%">
+
+**What's inside**
+
+| Piece | What it does |
 |---|---|
-| `scripts/specify.ps1`, `review-spec.ps1`, `revise-spec.ps1` | Flux SDD amb agents especialitzats (spec, reviewer, reviser, developer) |
-| `scripts/run-agent.ps1` | Executa qualsevol agent definit a `.ai/agents/` sota un contracte comú |
-| `scripts/validate-spec.ps1` | Validador d'especificacions (estructura i semàntica) |
-| `scripts/build-context.ps1`, `scan-repository.ps1` | Context del repositori per als agents, amb pressupost de tokens |
-| `scripts/lib/` | Motor compartit: registre de models/perfils, crides a Ollama, telemetria, reintents |
-| `.ai/config.json` | Registre únic de models, perfils i límits (res hardcodejat als scripts) |
+| `scripts/specify.ps1`, `review-spec.ps1`, `revise-spec.ps1` | SDD workflow with specialised agents (spec, reviewer, reviser, developer) |
+| `scripts/run-agent.ps1` | Runs any agent defined in `.ai/agents/` under a shared contract |
+| `scripts/validate-spec.ps1` | Specification validator (structure and semantics) |
+| `scripts/build-context.ps1`, `scan-repository.ps1` | Repository context for the agents, with a token budget |
+| `scripts/lib/` | Shared engine: model/profile registry, Ollama calls, telemetry, retries |
+| `.ai/config.json` | Single registry of models, profiles and limits (nothing hardcoded in the scripts) |
 
 ### 🧪 Tests
 
-- 22 suites en **Windows PowerShell 5.1** (834 casos executats offline, 0 fallits), cadascuna en el seu propi procés, executades per `scripts/test-all.ps1`.
-- El runner **falla qualsevol suite que modifiqui el repositori** (tripwire) i diferencia `PASS`, `PASS WITH SKIPS` i `FAIL`; els tests que necessiten un model real només s'executen amb `-IncludeLive`.
-- Tests *golden* dels prompts, *mocks* d'Ollama (fake host per TCP local) i fixtures d'especificacions vàlides i invàlides.
-- **Mutation testing** a mà: 20 mutants de la configuració, tots detectats pel test (vegeu l'informe de calibratge).
+- 22 suites in **Windows PowerShell 5.1** (834 cases run offline, 0 failed), each in its own process, run by `scripts/test-all.ps1`.
+- The runner **fails any suite that modifies the repository** (tripwire) and distinguishes `PASS`, `PASS WITH SKIPS` and `FAIL`; tests that need a real model only run with `-IncludeLive`.
+- *Golden* prompt tests, Ollama *mocks* (local TCP fake host) and fixtures of valid and invalid specifications.
+- Hand-made **mutation testing**: 20 mutants of the configuration, all caught by the tests (see the calibration report).
 
-<img src="assets/tests-per-suite.svg" alt="Casos de test per suite" width="100%">
+<img src="assets/en/tests-per-suite.svg" alt="Test cases per suite" width="100%">
 
-> Execució del 26-11-2026 sense Ollama: 21 de 22 suites executades (una necessita un model real). El runner va marcar 2 suites com a FAIL només pel *tripwire*, perquè un altre worktree del projecte es modificava durant l'execució; els seus casos van passar tots.
+> Run of 2026-11-26 without Ollama: 21 of 22 suites executed (one needs a real model). The runner flagged 2 suites as FAIL only because of its *tripwire*: another worktree of the project was being modified during the run. All their test cases passed.
 
-### 📊 Benchmarks i validació de models
+### 📊 Benchmarks and model validation
 
-- `scripts/benchmark-models.ps1`: compara models amb N repeticions i en calcula la **mediana** (tokens/s = `eval_count / eval_duration`).
-- Validació real de `qwen3.5:9b` i `qwen3.6:35b`: el revisor detecta una spec dolenta de manera consistent (2 de 2 execucions, ~52 s) i s'han documentat els límits de la mostra.
-- **Calibratge del pressupost de context** amb 16 prompts reals: `charsPerToken` 3,5 → 4,0 i `reservedOutputTokens` 8192 → 6144, eliminant 7 de 10 falsos avisos de truncament.
+- `scripts/benchmark-models.ps1`: compares models over N repetitions and reports the **median** (tokens/s = `eval_count / eval_duration`).
+- Real validation of `qwen3.5:9b` and `qwen3.6:35b`: the reviewer consistently rejects a bad spec (2 of 2 runs, ~52 s), and the sample limits are documented.
+- **Context-budget calibration** with 16 real prompts: `charsPerToken` 3.5 → 4.0 and `reservedOutputTokens` 8192 → 6144, removing 7 of 10 false truncation warnings.
 
-<img src="assets/chars-per-token.svg" alt="Caràcters per token mesurats en 16 prompts reals" width="100%">
+<img src="assets/en/chars-per-token.svg" alt="Measured characters per token across 16 real prompts" width="100%">
 
-<img src="assets/generation-speed.svg" alt="Velocitat de generació en tokens per segon de qwen3.5:9b i qwen3.6:35b" width="100%">
+<img src="assets/en/generation-speed.svg" alt="Generation speed in tokens per second for qwen3.5:9b and qwen3.6:35b" width="100%">
 
-> Mostres petites i una sola màquina: són senyals, no benchmarks definitius. El context en català (3,93 car./token) queda per sota del 4,0 configurat, i l'informe ho documenta.
+> Small samples on a single machine: signals, not definitive benchmarks. Catalan context (3.93 chars/token) falls below the configured 4.0, and the report documents it.
 
-### 🗓️ Ritme de desenvolupament
+### 🗓️ Development pace
 
-<img src="assets/commits-timeline.svg" alt="Commits per dia del 17 al 26 de novembre amb les fites de fase" width="100%">
+<img src="assets/en/commits-timeline.svg" alt="Commits per day from 17 to 26 November with phase milestones" width="100%">
 
-### 📚 Documentació de l'enginyeria
+### 📚 Engineering documentation
 
-El projecte documenta cada fase amb informes d'auditoria independents, indicant què és *FACT*, *DECISION*, *ASSUMPTION* o *NOT VERIFIED*:
+Each phase is documented with independent audit reports, labelling what is *FACT*, *DECISION*, *ASSUMPTION* or *NOT VERIFIED*:
 
-- [Roadmap de modernització](https://github.com/Josafe/AI-Dev-Harness/blob/master/docs/roadmap/modernization-roadmap.md)
-- [Validació de models (ronda 2)](https://github.com/Josafe/AI-Dev-Harness/blob/master/docs/audits/2026-11-19-model-validation-2.md)
-- [Calibratge de la fase 2](https://github.com/Josafe/AI-Dev-Harness/blob/master/docs/audits/2026-11-25-phase2-calibration.md)
-- [QA final de la fase 2](https://github.com/Josafe/AI-Dev-Harness/blob/master/docs/audits/2026-11-26-phase2-final-qa.md)
-- [Revisió de la porta de la fase 3A](https://github.com/Josafe/AI-Dev-Harness/blob/master/docs/audits/2026-11-26-phase3a-gate-review.md)
+- [Modernization roadmap](https://github.com/Josafe/AI-Dev-Harness/blob/master/docs/roadmap/modernization-roadmap.md)
+- [Model validation (round 2)](https://github.com/Josafe/AI-Dev-Harness/blob/master/docs/audits/2026-11-19-model-validation-2.md)
+- [Phase 2 calibration](https://github.com/Josafe/AI-Dev-Harness/blob/master/docs/audits/2026-11-25-phase2-calibration.md)
+- [Phase 2 final QA](https://github.com/Josafe/AI-Dev-Harness/blob/master/docs/audits/2026-11-26-phase2-final-qa.md)
+- [Phase 3A gate review](https://github.com/Josafe/AI-Dev-Harness/blob/master/docs/audits/2026-11-26-phase3a-gate-review.md)
 
 **Stack:** PowerShell 5.1 · Ollama · Qwen 3.5 / 3.6 · Claude · Git · Specification-Driven Development
 
 ---
 
-## 🗂️ Altres projectes
+## 🗂️ Other projects
 
-| Projecte | Descripció | Stack |
+| Project | Description | Stack |
 |---|---|---|
-| [SME-Management-Pilot](https://github.com/Josafe/SME-Management-Pilot) | Aplicació modular de gestió per a pimes de serveis | PHP |
-| [Portfolio](https://github.com/Josafe/Portfolio) | Portfolio personal amb els projectes desenvolupats | Vue |
-| [TFM-Sistema-Chatbot-Multiagent](https://github.com/Josafe/TFM-Sistema-Chatbot-Multiagent) | Chatbot lleuger reentrenat amb sistema multiagent per analitzar, clonar i instal·lar dependències de repositoris | Python |
-| [AI](https://github.com/Josafe/AI) | Tot el meu progrés en IA: ML clàssic, deep learning, NLP, imatge | Jupyter · Python |
-| [AI_ReinforcedLearningModel](https://github.com/Josafe/AI_ReinforcedLearningModel) | Model de reinforcement learning dissenyat amb codi | Python |
-| [AI_Ultralytics_Supervision](https://github.com/Josafe/AI_Ultralytics_Supervision) | IA en supervisió per computador | Python |
-| [TFG-CFGS-DAM](https://github.com/Josafe/TFG-CFGS-DAM) | Control remot de tòtems registrats a la BD | Dart |
+| [SME-Management-Pilot](https://github.com/Josafe/SME-Management-Pilot) | Modular management application for small and medium-sized service companies | PHP |
+| [Portfolio](https://github.com/Josafe/Portfolio) | Personal portfolio with the projects I've built | Vue |
+| [TFM-Sistema-Chatbot-Multiagent](https://github.com/Josafe/TFM-Sistema-Chatbot-Multiagent) | Lightweight retrained chatbot with a multi-agent system that analyses, clones and installs dependencies of GitHub repositories | Python |
+| [AI](https://github.com/Josafe/AI) | All my progress in AI: classical ML, deep learning, NLP, imaging | Jupyter · Python |
+| [AI_ReinforcedLearningModel](https://github.com/Josafe/AI_ReinforcedLearningModel) | Reinforcement learning model designed from code | Python |
+| [AI_Ultralytics_Supervision](https://github.com/Josafe/AI_Ultralytics_Supervision) | AI for computer-vision supervision | Python |
+| [TFG-CFGS-DAM](https://github.com/Josafe/TFG-CFGS-DAM) | Remote control of kiosks registered in the database | Dart |
 
-<img src="assets/languages.svg" alt="Repos per llenguatge principal" width="100%">
+<img src="assets/en/languages.svg" alt="Repositories by main language" width="100%">
 
-## 🛠️ Tecnologies
+## 🛠️ Technologies
 
 ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat&logo=powershell&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat&logo=supabase&logoColor=white)
+![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=flat&logo=stripe&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white)
 ![Vue](https://img.shields.io/badge/Vue-4FC08D?style=flat&logo=vuedotjs&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
@@ -86,6 +113,6 @@ El projecte documenta cada fase amb informes d'auditoria independents, indicant 
 ![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat&logo=ollama&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 
-## 📫 Contacte
+## 📫 Contact
 
-📍 Barcelona, Catalunya · 💼 GitHub: [@Josafe](https://github.com/Josafe)
+📍 Barcelona, Catalonia · 💼 GitHub: [@Josafe](https://github.com/Josafe)

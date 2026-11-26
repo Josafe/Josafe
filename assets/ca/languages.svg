@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="304" viewBox="0 0 800 304" role="img" aria-labelledby="ti de"><title id="ti">Llenguatges principals</title><desc id="de">Nombre de repos per llenguatge principal</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="304" viewBox="0 0 800 304" role="img" aria-labelledby="ti de"><title id="ti">Llenguatges</title><desc id="de">Llenguatges</desc>
 <style>
   .bg{fill:#ffffff;stroke:#d0d7de}.t{fill:#1f2328}.m{fill:#59636e}.g{stroke:#d0d7de}
   .a{fill:#0969da}.b{fill:#1a7f37}.c{fill:#bc4c00}.d{fill:#8250df}

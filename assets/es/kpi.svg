@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="170" viewBox="0 0 800 170" role="img" aria-labelledby="ti de"><title id="ti">AI-Dev-Harness en cifras</title><desc id="de">150 commits, 834 casos de test, 21 suites</desc>
+<style>
+  .bg{fill:#ffffff;stroke:#d0d7de}.t{fill:#1f2328}.m{fill:#59636e}.g{stroke:#d0d7de}
+  .a{fill:#0969da}.b{fill:#1a7f37}.c{fill:#bc4c00}.d{fill:#8250df}
+  .as{stroke:#0969da}.bs{stroke:#1a7f37}.cs{stroke:#bc4c00}.ds{stroke:#8250df}
+  text{font-family:-apple-system,'Segoe UI',Helvetica,Arial,sans-serif}
+  @media (prefers-color-scheme: dark){
+    .bg{fill:#0d1117;stroke:#30363d}.t{fill:#e6edf3}.m{fill:#9198a1}.g{stroke:#30363d}
+    .a{fill:#4493f8}.b{fill:#3fb950}.c{fill:#f0883e}.d{fill:#ab7df8}
+    .as{stroke:#4493f8}.bs{stroke:#3fb950}.cs{stroke:#f0883e}.ds{stroke:#ab7df8}
+  }
+</style><rect class="bg" x=".5" y=".5" width="799" height="169" rx="10"/><text x="24" y="32" class="t" font-size="15" text-anchor="start" font-weight="600">AI-Dev-Harness en cifras</text><text x="24" y="50" class="m" font-size="11.5" text-anchor="start" font-weight="400">Datos reales del repositorio; 21 de 22 suites ejecutadas offline (1 requiere Ollama)</text><rect x="24.0" y="66" width="179.0" height="82" rx="8" class="bg"/><rect x="24.0" y="66" width="4" height="82" rx="2" class="a"/><text x="42.0" y="108" class="a" font-size="30" text-anchor="start" font-weight="700">150</text><text x="42.0" y="132" class="m" font-size="12" text-anchor="start" font-weight="400">commits</text><rect x="215.0" y="66" width="179.0" height="82" rx="8" class="bg"/><rect x="215.0" y="66" width="4" height="82" rx="2" class="b"/><text x="233.0" y="108" class="b" font-size="30" text-anchor="start" font-weight="700">834</text><text x="233.0" y="132" class="m" font-size="12" text-anchor="start" font-weight="400">casos de test</text><rect x="406.0" y="66" width="179.0" height="82" rx="8" class="bg"/><rect x="406.0" y="66" width="4" height="82" rx="2" class="c"/><text x="424.0" y="108" class="c" font-size="30" text-anchor="start" font-weight="700">21</text><text x="424.0" y="132" class="m" font-size="12" text-anchor="start" font-weight="400">suites</text><rect x="597.0" y="66" width="179.0" height="82" rx="8" class="bg"/><rect x="597.0" y="66" width="4" height="82" rx="2" class="d"/><text x="615.0" y="108" class="d" font-size="30" text-anchor="start" font-weight="700">3,5x</text><text x="615.0" y="132" class="m" font-size="12" text-anchor="start" font-weight="400">código de test / código</text></svg>
