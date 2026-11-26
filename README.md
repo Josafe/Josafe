@@ -8,7 +8,7 @@ Full-stack developer and AI systems engineer from **Barcelona**, with profession
 
 ## 🎯 What I bring
 
-- **End-to-end delivery:** I take products from requirements to production. AGC Padel Academy (booking and Stripe payments) is live with real users.
+- **End-to-end delivery:** I take products from requirements to production. AGC Padel Academy (booking and Stripe payments) is live with real users (~50 bookings per month).
 - **Integrations and data:** I led the migration of a local database application into a company ERP, and I have worked as a database administrator on multinational systems.
 - **AI that is measured, not assumed:** agent systems with local LLMs, backed by 834 offline tests and benchmarks on real prompts.
 
@@ -17,7 +17,7 @@ Full-stack developer and AI systems engineer from **Barcelona**, with profession
 | Period | Role | What I did |
 |---|---|---|
 | Dec 2024 – Oct 2026 | **Full-Stack Software Engineer**, NessunDorma Group | Web applications and REST APIs with PHP, Laravel, Vue.js, TypeScript and Go; led the migration of a local database application to the company ERP; built an internal real-time presentation automation platform (sync, PDF export, QR) and Go logging/automation tools. |
-| Oct 2025 – today | **Freelance**: AGC Padel Academy | Booking and payments platform in production for a sports academy in Switzerland (React, Supabase, Stripe). |
+| Oct 2025 – today | **Freelance**: AGC Padel Academy | Booking and payments platform in production for a sports academy in Switzerland (React, Supabase, Stripe), handling ~50 bookings per month. |
 | Oct 2023 – Mar 2024 | **Database Administrator**, Rehau S.A. | Maintenance of multinational databases (Spain / Portugal), user permissions and ERP data. |
 | Jan 2022 – Jun 2023 | **Cross-Platform Developer**, Dokuos | Interactive software for digital totems (Node.js, PHP, Flutter, Dart, MySQL), remote software maintenance and backend/database management. |
 | Feb – Jul 2019 | **IT Technician**, InfoConnexions | Installation and maintenance of systems, applications and hardware. |
@@ -30,7 +30,7 @@ Full-stack developer and AI systems engineer from **Barcelona**, with profession
 
 ## 🚀 In production: AGC Padel Academy
 
-Full-stack **booking and payments platform** for [AGC Padel Academy](https://agcpadelacademy.com), a padel academy in Switzerland. Built **end to end as an MVP** (requirements, data model, frontend, backend, payments and deployment) and **running in production with real customers**.
+Full-stack **booking and payments platform** for [AGC Padel Academy](https://agcpadelacademy.com), a padel academy in Switzerland. Built **end to end as an MVP** (requirements, data model, frontend, backend, payments and deployment) and **running in production with real customers** (~50 bookings per month).
 
 > 🔒 The source code is private (client work). I'm happy to walk through the architecture and code on request.
 

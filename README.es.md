@@ -8,7 +8,7 @@ Desarrollador full-stack e ingeniero de sistemas de IA de **Barcelona**, con exp
 
 ## 🎯 Qué puedo aportar
 
-- **Entrega de punta a punta:** llevo los productos de los requisitos a producción. AGC Padel Academy (reservas y pagos con Stripe) está en directo con usuarios reales.
+- **Entrega de punta a punta:** llevo los productos de los requisitos a producción. AGC Padel Academy (reservas y pagos con Stripe) está en directo con usuarios reales (unas 50 reservas al mes).
 - **Integraciones y datos:** lideré la migración de una aplicación de base de datos local al ERP de una empresa, y he trabajado como administrador de bases de datos en sistemas multinacionales.
 - **IA medida, no supuesta:** sistemas de agentes con LLMs locales, con 834 tests offline y benchmarks sobre prompts reales.
 
@@ -17,7 +17,7 @@ Desarrollador full-stack e ingeniero de sistemas de IA de **Barcelona**, con exp
 | Periodo | Rol | Qué hice |
 |---|---|---|
 | Dic 2024 – Oct 2026 | **Ingeniero de software Full-Stack**, NessunDorma Group | Aplicaciones web y API REST con PHP, Laravel, Vue.js, TypeScript y Go; lideré la migración de una aplicación de base de datos local al ERP de la empresa; plataforma interna de automatización de presentaciones en tiempo real (sincronización, PDF, QR) y herramientas de registro y automatización en Go. |
-| Oct 2025 – hoy | **Freelance**: AGC Padel Academy | Plataforma de reservas y pagos en producción para una academia deportiva en Suiza (React, Supabase, Stripe). |
+| Oct 2025 – hoy | **Freelance**: AGC Padel Academy | Plataforma de reservas y pagos en producción para una academia deportiva en Suiza (React, Supabase, Stripe), con unas 50 reservas al mes. |
 | Oct 2023 – Mar 2024 | **Administrador de bases de datos**, Rehau S.A. | Mantenimiento de bases de datos multinacionales (España / Portugal), permisos de usuario y datos del ERP. |
 | Ene 2022 – Jun 2023 | **Desarrollador multiplataforma**, Dokuos | Software interactivo para tótems digitales (Node.js, PHP, Flutter, Dart, MySQL), mantenimiento remoto de software y gestión de backend y bases de datos. |
 | Feb – Jul 2019 | **Técnico informático**, InfoConnexions | Instalación y mantenimiento de sistemas, aplicaciones y hardware. |
@@ -30,7 +30,7 @@ Desarrollador full-stack e ingeniero de sistemas de IA de **Barcelona**, con exp
 
 ## 🚀 En producción: AGC Padel Academy
 
-**Plataforma de reservas y pagos** full-stack para [AGC Padel Academy](https://agcpadelacademy.com), una academia de pádel en Suiza. Construida **de principio a fin como MVP** (requisitos, modelo de datos, frontend, backend, pagos y despliegue) y **en producción con clientes reales**.
+**Plataforma de reservas y pagos** full-stack para [AGC Padel Academy](https://agcpadelacademy.com), una academia de pádel en Suiza. Construida **de principio a fin como MVP** (requisitos, modelo de datos, frontend, backend, pagos y despliegue) y **en producción con clientes reales** (unas 50 reservas al mes).
 
 > 🔒 El código fuente es privado (trabajo para un cliente). Estaré encantado de explicar la arquitectura y el código si lo deseas.
 
