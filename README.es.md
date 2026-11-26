@@ -26,6 +26,8 @@ Desarrollador full-stack e ingeniero de sistemas de IA de **Barcelona**, con exp
 
 **Certificaciones:** AWS Academy (Cloud Foundations, Cloud Architecting, Data Engineering) · Hugging Face, curso de agentes
 
+**Idiomas:** catalán (nativo) · castellano (nativo) · inglés (nivel profesional)
+
 ---
 
 ## 🚀 En producción: AGC Padel Academy

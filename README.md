@@ -26,6 +26,8 @@ Full-stack developer and AI systems engineer from **Barcelona**, with profession
 
 **Certifications:** AWS Academy (Cloud Foundations, Cloud Architecting, Data Engineering) · Hugging Face Agents Course
 
+**Languages:** Catalan (native) · Spanish (native) · English (professional working proficiency)
+
 ---
 
 ## 🚀 In production: AGC Padel Academy
