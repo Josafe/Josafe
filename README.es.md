@@ -4,6 +4,8 @@
 
 Desarrollador full-stack e ingeniero de sistemas de IA de **Barcelona**, con experiencia profesional desde 2022 construyendo plataformas web y sistemas backend (Laravel, Vue, React, Go, AWS) y una especialización en **IA y Big Data**. Me interesa especialmente la **IA aplicada al desarrollo de software**: agentes, modelos locales, desarrollo dirigido por especificaciones y, sobre todo, **medir** qué funciona de verdad.
 
+> 🟢 **Abierto a oportunidades:** roles de Full-Stack Developer · Barcelona (híbrido) o en remoto.
+
 ## 💼 Experiencia
 
 | Periodo | Rol | Qué hice |

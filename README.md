@@ -4,6 +4,8 @@
 
 Full-stack developer and AI systems engineer from **Barcelona**, with professional experience since 2022 building web platforms and backend systems (Laravel, Vue, React, Go, AWS), and a specialisation in **AI & Big Data**. I'm especially interested in **AI applied to software development**: agents, local models, specification-driven development and, above all, **measuring** what really works.
 
+> 🟢 **Open to work:** Full-Stack Developer roles · Barcelona (hybrid) or remote.
+
 ## 💼 Experience
 
 | Period | Role | What I did |
